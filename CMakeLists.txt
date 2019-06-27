@@ -3,4 +3,4 @@ project(ThreadPractice C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(ThreadPractice main.c)
+add_executable(ThreadPractice threadDriver.c threadPractice.h)
